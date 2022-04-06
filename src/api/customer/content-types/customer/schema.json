@@ -4,7 +4,8 @@
   "info": {
     "singularName": "customer",
     "pluralName": "customers",
-    "displayName": "customers"
+    "displayName": "customers",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,29 @@
       "type": "integer",
       "required": true,
       "min": 0
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "address": {
+      "type": "string"
+    },
+    "seller": {
+      "displayName": "seller",
+      "type": "component",
+      "repeatable": false,
+      "component": "seller.seller"
     }
   }
 }
