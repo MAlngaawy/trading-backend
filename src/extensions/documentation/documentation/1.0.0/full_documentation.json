@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-04-06T19:51:06.567Z"
+    "x-generation-date": "2022-04-06T19:54:18.190Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -458,6 +458,9 @@
                                 "type": "object",
                                 "properties": {
                                   "id": {
+                                    "type": "string"
+                                  },
+                                  "name": {
                                     "type": "string"
                                   }
                                 }
@@ -1431,6 +1434,9 @@
                               "properties": {
                                 "id": {
                                   "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
                                 }
                               }
                             },
@@ -2325,6 +2331,9 @@
                               "properties": {
                                 "id": {
                                   "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
                                 }
                               }
                             },
@@ -3206,6 +3215,9 @@
                               "properties": {
                                 "id": {
                                   "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
                                 }
                               }
                             },
@@ -3716,7 +3728,11 @@
                       },
                       "seller": {
                         "type": "object",
-                        "properties": {}
+                        "properties": {
+                          "name": {
+                            "type": "string"
+                          }
+                        }
                       },
                       "createdAt": {
                         "type": "string",

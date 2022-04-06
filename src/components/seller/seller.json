@@ -2,8 +2,13 @@
   "collectionName": "components_seller_sellers",
   "info": {
     "displayName": "seller",
-    "icon": "car-side"
+    "icon": "car-side",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
 }
