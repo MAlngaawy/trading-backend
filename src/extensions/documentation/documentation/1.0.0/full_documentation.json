@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-04-06T19:54:18.190Z"
+    "x-generation-date": "2022-04-07T08:59:20.765Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -453,17 +453,6 @@
                               },
                               "address": {
                                 "type": "string"
-                              },
-                              "seller": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "string"
-                                  },
-                                  "name": {
-                                    "type": "string"
-                                  }
-                                }
                               },
                               "createdAt": {
                                 "type": "string",
@@ -1429,17 +1418,6 @@
                             "address": {
                               "type": "string"
                             },
-                            "seller": {
-                              "type": "object",
-                              "properties": {
-                                "id": {
-                                  "type": "string"
-                                },
-                                "name": {
-                                  "type": "string"
-                                }
-                              }
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2326,17 +2304,6 @@
                             "address": {
                               "type": "string"
                             },
-                            "seller": {
-                              "type": "object",
-                              "properties": {
-                                "id": {
-                                  "type": "string"
-                                },
-                                "name": {
-                                  "type": "string"
-                                }
-                              }
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3210,17 +3177,6 @@
                             "address": {
                               "type": "string"
                             },
-                            "seller": {
-                              "type": "object",
-                              "properties": {
-                                "id": {
-                                  "type": "string"
-                                },
-                                "name": {
-                                  "type": "string"
-                                }
-                              }
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3725,14 +3681,6 @@
                       },
                       "address": {
                         "type": "string"
-                      },
-                      "seller": {
-                        "type": "object",
-                        "properties": {
-                          "name": {
-                            "type": "string"
-                          }
-                        }
                       },
                       "createdAt": {
                         "type": "string",

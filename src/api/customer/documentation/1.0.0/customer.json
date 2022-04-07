@@ -404,17 +404,6 @@
                               "address": {
                                 "type": "string"
                               },
-                              "seller": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "string"
-                                  },
-                                  "name": {
-                                    "type": "string"
-                                  }
-                                }
-                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1379,17 +1368,6 @@
                             "address": {
                               "type": "string"
                             },
-                            "seller": {
-                              "type": "object",
-                              "properties": {
-                                "id": {
-                                  "type": "string"
-                                },
-                                "name": {
-                                  "type": "string"
-                                }
-                              }
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2276,17 +2254,6 @@
                             "address": {
                               "type": "string"
                             },
-                            "seller": {
-                              "type": "object",
-                              "properties": {
-                                "id": {
-                                  "type": "string"
-                                },
-                                "name": {
-                                  "type": "string"
-                                }
-                              }
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3160,17 +3127,6 @@
                             "address": {
                               "type": "string"
                             },
-                            "seller": {
-                              "type": "object",
-                              "properties": {
-                                "id": {
-                                  "type": "string"
-                                },
-                                "name": {
-                                  "type": "string"
-                                }
-                              }
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3675,14 +3631,6 @@
                       },
                       "address": {
                         "type": "string"
-                      },
-                      "seller": {
-                        "type": "object",
-                        "properties": {
-                          "name": {
-                            "type": "string"
-                          }
-                        }
                       },
                       "createdAt": {
                         "type": "string",
