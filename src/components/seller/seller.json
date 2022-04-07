@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_seller_sellers",
+  "info": {
+    "displayName": "seller",
+    "icon": "car-side",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
