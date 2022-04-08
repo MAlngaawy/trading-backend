@@ -37,12 +37,6 @@
     },
     "address": {
       "type": "string"
-    },
-    "seller": {
-      "displayName": "seller",
-      "type": "component",
-      "repeatable": false,
-      "component": "seller.seller"
     }
   }
 }
