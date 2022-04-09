@@ -1764,33 +1764,6 @@
     styled-components "^5.2.3"
     whatwg-fetch "^3.6.2"
 
-"@strapi/helper-plugin@4.1.7":
-  version "4.1.7"
-  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.1.7.tgz#2d17072c9aee59770b1ac77dc23963484ca7788b"
-  integrity sha512-GQW1xH9wu1f6nDS3eLpmG+hC5dYjsXK/Zvbqn3cMLN5WQhDgjwIqziohDNaXdqJSyJ64a+6CofPNwb1upTEHZQ==
-  dependencies:
-    "@fortawesome/fontawesome-free" "^5.15.2"
-    "@fortawesome/fontawesome-svg-core" "^1.2.35"
-    "@fortawesome/free-brands-svg-icons" "^5.15.2"
-    "@fortawesome/free-solid-svg-icons" "^5.15.3"
-    "@fortawesome/react-fontawesome" "^0.1.14"
-    axios "0.25.0"
-    babel-plugin-styled-components "2.0.2"
-    formik "2.2.9"
-    invariant "^2.2.1"
-    lodash "4.17.21"
-    match-sorter "^4.0.2"
-    mini-css-extract-plugin "2.4.4"
-    moment "^2.29.1"
-    react "^17.0.2"
-    react-dom "^17.0.2"
-    react-helmet "^6.1.0"
-    react-intl "5.20.2"
-    react-router "^5.2.0"
-    react-router-dom "5.2.0"
-    styled-components "^5.2.3"
-    whatwg-fetch "^3.6.2"
-
 "@strapi/icons@0.0.1-alpha.79":
   version "0.0.1-alpha.79"
   resolved "https://registry.yarnpkg.com/@strapi/icons/-/icons-0.0.1-alpha.79.tgz#eff8790ea3897419489a61cbfd72a436661d1420"
@@ -1837,13 +1810,13 @@
     reselect "^4.0.0"
     yup "^0.32.9"
 
-"@strapi/plugin-documentation@^4.1.7":
-  version "4.1.7"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-documentation/-/plugin-documentation-4.1.7.tgz#246e98a63c28d9ab4cdf399a5f0364a331f6a5b2"
-  integrity sha512-Wa3LsXo6PDCKWQAjtxhBztdkXQ1Q2AX9I3O4jlTnDr4B8Spi4TyCSrNDH7ixKa2OQD5GLIy1ny5J5sJghG3FYQ==
+"@strapi/plugin-documentation@4.1.5":
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-documentation/-/plugin-documentation-4.1.5.tgz#51ef468a433e203d54166c650acc5229ff35f3d4"
+  integrity sha512-HVO2zy8aIpfgoo69iYHt4r64MLQUKupYQU8ajQfk4d1gYo8cB9SsFYddqnGsay2kq/kImTvOHe1ReJ0T/yOoGQ==
   dependencies:
-    "@strapi/helper-plugin" "4.1.7"
-    "@strapi/utils" "4.1.7"
+    "@strapi/helper-plugin" "4.1.5"
+    "@strapi/utils" "4.1.5"
     bcryptjs "2.4.3"
     cheerio "^1.0.0-rc.5"
     fs-extra "10.0.0"
